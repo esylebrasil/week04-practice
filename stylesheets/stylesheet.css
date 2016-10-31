@@ -1,0 +1,57 @@
+header {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: auto;
+  padding-left: 26px; 
+  padding-bottom: 12px; 
+  padding-top: 15px;
+}
+li {
+  display: inline;
+  padding-left: 20px; 
+  padding-right: 20px;
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #B404AE; 
+}
+nav {
+  background-color: #A6A6A6;
+  padding: 1px; 
+  align-content: center;
+}
+.book-now-link { 
+  float: right;
+  color: #F80400;
+  padding-right: 1rem;
+  padding-bottom: 2rem; 
+}
+body {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-style:normal;
+  font-size: 16x;
+  clear: right;  
+  padding: 2rem; 
+}
+.testimonials {
+  font-style: italic;
+}
+section {
+  padding-left: 20px; 
+}
+aside {
+  width: 250px; 
+  float: right; 
+  margin: 15px; 
+  padding: 10px 5px 10px 15px; 
+  border-style:solid;
+  border-width: 2px; 
+  text-align: center;
+ }
+.CoTW-book-now {
+  float: right;
+  color: #F80400;
+  padding: 2px;
+}
+.luna-about {
+  text-align: left;
+}
