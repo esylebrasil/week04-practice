@@ -1,57 +1,124 @@
-header {
+/* Site Header */
+header, footer {
   background-color: #000000;
   color: #FFFFFF;
-  margin: auto;
+  margin: 0px;
   padding-left: 26px; 
-  padding-bottom: 12px; 
+  padding-bottom: 10px; 
   padding-top: 15px;
 }
+
+h1 {
+  font-size: 55px; 
+  font-weight: 100;
+  padding: 0; 
+  margin: 0;
+}
+
+h3 {
+  font-size: 26px;
+  padding: 0;
+  margin: 0;
+}
+
+/* header description */
+.description {
+  background-color: #000000;
+  color: gray;
+  font-size: 24px; 
+}
+
+/* cat photo spacing */
+.cats {
+  padding: 0; 
+  margin: 0; 
+}
+
+/* Nav List Display */
 li {
-  display: inline;
-  padding-left: 20px; 
+  display: inline-block;
   padding-right: 20px;
+  padding-left: 20px;
   font-size: 20px; 
   font-weight: 600; 
   color: #B404AE; 
+  text-align: center;
 }
+
+/* navigation background */
 nav {
   background-color: #A6A6A6;
   padding: 1px; 
-  align-content: center;
 }
-.book-now-link { 
-  float: right;
-  color: #F80400;
+
+/* header call to action */
+.cta { 
+  text-align: right;
+  color: #C6190D;
+  font-size: 24px;
+  font-weight: 100; 
   padding-right: 1rem;
   padding-bottom: 2rem; 
 }
-body {
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-  font-style:normal;
-  font-size: 16x;
-  clear: right;  
-  padding: 2rem; 
+
+/* cat of the week call to action */
+.CoTW-cta {
+  float: right;
+  color: #C6190D;
 }
+
+/*  font style for page */
+body {
+  font-family: Calibri, "Calibri UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 22x;
+  clear: right;  
+}
+
+/* testimonials */
 .testimonials {
   font-style: italic;
+  font-size: 22px;
 }
+
 section {
   padding-left: 20px; 
+  font-size: 22px;
 }
+
+/* cat of the week aside */
 aside {
-  width: 250px; 
+  width: 19.5rem; 
   float: right; 
   margin: 15px; 
   padding: 10px 5px 10px 15px; 
   border-style:solid;
   border-width: 2px; 
   text-align: center;
+  overflow: hidden;
  }
-.CoTW-book-now {
-  float: right;
-  color: #F80400;
-  padding: 2px;
-}
+
+/* aside text alignment */
 .luna-about {
   text-align: left;
+}
+
+/* footer formatting*/
+footer {
+  clear: both;  
+}
+
+.arrow {
+  font-size: 16px; 
+  font-family: Wingdings;"Calibri";
+  font-weight: 300;
+}
+
+/* contact email */
+.contact {
+  color: #C6190D;
+}
+
+/* disclaimer */
+.disclaimer {
+  text-align: center;
 }
