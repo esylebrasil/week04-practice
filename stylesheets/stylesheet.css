@@ -107,12 +107,6 @@ footer {
   clear: both;  
 }
 
-.arrow {
-  font-size: 16px; 
-  font-family: Wingdings;"Calibri";
-  font-weight: 300;
-}
-
 /* contact email */
 .contact {
   color: #C6190D;
@@ -121,4 +115,9 @@ footer {
 /* disclaimer */
 .disclaimer {
   text-align: center;
+}
+
+/* cat photo sizing */
+.cats {
+  width: 250px;
 }
